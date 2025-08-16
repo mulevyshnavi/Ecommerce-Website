@@ -40,6 +40,6 @@ The backend is built with 6 microservices, all registered via Eureka Service Reg
 3)Cart Service – Manage user cart items.\
 4)Order Service – Place and track orders.\
 5)API Gateway – Routes all requests to respective services.\
-6)Service Registry (Eureka) – Service discovery for all microservices.\
+6)Service Registry (Eureka) – Service discovery for all microservices.
 
 
