@@ -3,64 +3,42 @@
 This is a full-stack E-Commerce Application built using Spring Boot (Microservices) for the backend and React.js for the frontend.JWT Authentication with Spring Security ensures secure login and role-based access.Users can browse products, add items to the cart, and place orders.Admins can manage products (CRUD operations).Microservice architecture with Eureka Service Registry and API Gateway for routing.
 ## Features
 ### User Features
-->Register as a new user (with role, phone number, email, etc.)
-->Secure login via JWT Authentication
-->View available products
-->View product details
-->Add products to cart
-->Place orders
+Register as a new user (with role, phone number, email, etc.)\
+Secure login via JWT Authentication.\
+View available products.\
+View product details.\
+Add products to cart.\
+Place orders.\
+### Admin Features
+Secure login with admin credentials.\
+Add new products.\
+Update existing products.\
+Delete products.\
+View all available products.\
+### Authentication
+Role-based access using Spring Security.\
+JWT token-based authentication for API requests.\
+### Tech Stack
+## Backend
+Java.\
+Spring Boot.\
+Spring MVC.\
+Spring Data JPA.\
+Spring Security (JWT).\
+Eureka Service Registry.\
+API Gateway.\
+MySQL Database.\
+## Frontend 
+React.js.\
+JavaScript (ES6).\
+HTML5, CSS3.\
+### Microservices Architecture
+The backend is built with 6 microservices, all registered via Eureka Service Registry and accessible through the API Gateway:
+1)Auth Service – Handles registration, login, role management.\
+2)Product Service – CRUD operations for products.\
+3)Cart Service – Manage user cart items.\
+4)Order Service – Place and track orders.\
+5)API Gateway – Routes all requests to respective services.\
+6)Service Registry (Eureka) – Service discovery for all microservices.\
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
