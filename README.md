@@ -1,7 +1,8 @@
 # E-commerce website using java fullstack
 
 This is a full-stack E-Commerce website built using Spring Boot (Microservices) for the backend and React.js for the frontend.This involves JWT Authentication with Spring Security ensures secure login and role-based access.Users can browse products, add items to the cart, and place orders.Admins can manage products (CRUD operations).Microservice architecture with Eureka Service Registry and API Gateway for routing.
-## Features
+## Overview
+In order to start this project first we need to run the service registry where all the services will register through eureka server then we need to run the remaining services like api gateway,auth service,cart service,product service,order service.Then for frontend I have used the React.js and used Vscode as IDE then i have run this parallely in frontend.where if the he.she logged as user can open the user perspective website where he/she can view the products,add to cart and place order.If he/she logged as admin then admin perspective website will be open and can perform CRUD operations on the products .
 ## User Features
 If the user is already registered then he/she can login through the username and password .\
 Incase of a new   user then he/she needs to register (with role, phone number, email, etc.)\
@@ -19,7 +20,6 @@ View all available products.
 ## Authentication
 Role-based access using Spring Security.\
 JWT token-based authentication for API requests.
-## Tech Stack
 ## Backend
 Java.\
 Spring Boot.\
