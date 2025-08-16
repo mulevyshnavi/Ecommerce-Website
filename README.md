@@ -1,7 +1,14 @@
 # E-commerce website using java fullstack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a full-stack E-Commerce Application built using Spring Boot (Microservices) for the backend and React.js for the frontend.
 
+JWT Authentication with Spring Security ensures secure login and role-based access.
+
+Users can browse products, add items to the cart, and place orders.
+
+Admins can manage products (CRUD operations).
+
+Microservice architecture with Eureka Service Registry and API Gateway for routing.
 ## Available Scripts
 
 In the project directory, you can run:
